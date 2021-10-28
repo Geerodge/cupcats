@@ -1,7 +1,7 @@
 import React from "react";
 import Layout from "../components/Layout";
 
-const IndexPage = () => {
+const Rarity = () => {
   return (
     <Layout>
       <h1>rarity page</h1>
@@ -9,4 +9,4 @@ const IndexPage = () => {
   )
 }
 
-export default IndexPage
+export default Rarity;

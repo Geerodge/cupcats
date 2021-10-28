@@ -15,7 +15,7 @@ const FooterStyles = styled.div`
         margin-top: 10px;
         transition: 0.3s;
         &:hover {
-            color: var(--quaternary);
+            color: var(--grey);
         }
     }
     

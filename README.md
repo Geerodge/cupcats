@@ -1,54 +1,48 @@
-<p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Gatsby minimal starter
-</h1>
+## Cupcats NFT
 
-## 🚀 Quick start
+Cupcats NFT website.
 
-1.  **Create a Gatsby site.**
+## Getting Started
 
-    Use the Gatsby CLI to create a new site, specifying the minimal starter.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-    ```shell
-    # create a new Gatsby site using the minimal starter
-    npm init gatsby
-    ```
+### Prerequisites
 
-2.  **Start developing.**
+You will need to install the following applications and versions.
 
-    Navigate into your new site’s directory and start it up.
+* Gatsby v2.26.1
+* React v16.12.0
+* Node.js v15.5.0
 
-    ```shell
-    cd my-gatsby-site/
-    npm run develop
-    ```
+### Installing
 
-3.  **Open the code and start customizing!**
+Clone the repository
 
-    Your site is now running at http://localhost:8000!
+```
+git clone https://github.com/Geerodge/cupcats.git
+```
 
-    Edit `src/pages/index.js` to see your site update in real-time!
+Install all the required packages
 
-4.  **Learn more**
+```
+npm install
+```
 
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+## Deployment
 
-    - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+I would recommend using [Netlify](https://www.netlify.com) to build and host this site.
 
-    - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+## Built With
 
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+Built using React and Gatsby.
 
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+* [Gatsby](https://www.gatsbyjs.com/) - The web framework used
+* [Reactjs](https://reactjs.org/) - JavaScript library
 
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+## Authors
 
-## 🚀 Quick start (Gatsby Cloud)
+**George McEntegart** - [Website](https://georgemc.net/)
 
-Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
+## License
 
-[<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/gatsbyjs/gatsby-starter-minimal)
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details

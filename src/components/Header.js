@@ -10,8 +10,9 @@ const HeaderStyles = styled.div`
 
   header {
     display: flex;
-    margin-top: 5rem;
+    margin: 5rem 0 10rem 0;
     width: 100vw;
+    line-height: 1;
   }
 
   .header__logo {
@@ -22,8 +23,13 @@ const HeaderStyles = styled.div`
     align-items: center;
   }
 
+  .header__logo p {
+    margin-right: 2rem;
+  }
+
   .header__nav {
     flex: 50%;
+
   }
 
   .header__social {
@@ -178,7 +184,7 @@ const HeaderStyles = styled.div`
       }
 
       header {
-        margin-top: 0rem;
+        margin: 0 0 15rem 0;
       }
 
     }

@@ -14,6 +14,7 @@ const GlobalStyles = createGlobalStyle`
     --grey: #5d5c61;
     --darkgrey: #333332;
     --light: #FAF5FF;
+    --white: #FFFFFF;
     --dark: #26062D;
     --bright: #FFF89B;
     --black: #000000;
@@ -40,14 +41,12 @@ const GlobalStyles = createGlobalStyle`
     }
 
     button.primary {
-      background-color: var(--white);
+      background-color: var(--quaternary);
       cursor: pointer;
-      font-weight: 700;
-      text-transform: uppercase;
       border: none;
-      color: var(--tertiary);
-      border: solid 1px var(--tertiary);
-      padding: 0 15px;
+      border-radius: 100px;
+      color: var(--white);
+      padding: 0 35px;
       height: 2.5em;
       -webkit-transition: background-color .3s ease-out;
       -moz-transition: background-color .3s ease-out;
@@ -55,26 +54,25 @@ const GlobalStyles = createGlobalStyle`
       transition: background-color .3s ease-out;
       &:hover {
         background-color: var(--tertiary);
-        color: var(--white);
+        color: var(--black);
       }
     }
 
     button.secondary {
-      background-color: var(--tertiary);
+      background-color: var(--primary);
       cursor: pointer;
-      font-weight: 700;
-      text-transform: uppercase;
       border: none;
-      color: var(--white);
-      padding: 0 15px;
+      border-radius: 100px;
+      color: var(--black);
+      padding: 0 35px;
       height: 2.5em;
       -webkit-transition: background-color .3s ease-out;
       -moz-transition: background-color .3s ease-out;
       -o-transition: background-color .3s ease-out;
       transition: background-color .3s ease-out;
       &:hover {
-        background-color: var(--white);
-        color: var(--tertiary);
+        background-color: var(--quaternary);
+        color: var(--white);
       }
     }
 

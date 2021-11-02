@@ -1,5 +1,6 @@
 import * as React from "react";
 import Hero from "../components/Hero";
+import ImageAside from "../components/ImageAside";
 import Layout from "../components/Layout";
 
 // Hero paragraph content
@@ -38,6 +39,7 @@ const IndexPage = () => {
         paragraphs={heroParagraphs}
         buttons={heroButtons}
       />
+      <ImageAside />
     </Layout>
   )
 }

@@ -59,7 +59,7 @@ const GlobalStyles = createGlobalStyle`
     }
 
     button.secondary {
-      background-color: var(--primary);
+      background-color: var(--tertiary);
       cursor: pointer;
       border: none;
       border-radius: 100px;

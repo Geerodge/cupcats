@@ -208,7 +208,7 @@ const Header = () => (
           </div>
         </nav>
         <div className="header__social">
-          <a href="https://discord.com/invite/ZTmEHUhk69" target="_blank" rel="noreferrer">
+          <a href="https://www.instagram.com/" target="_blank" rel="noreferrer">
               <BsInstagram className="header__social--icons" size={35} />
           </a>
           <a href="https://twitter.com/cupcatnft" target="_blank" rel="noreferrer">

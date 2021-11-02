@@ -1,6 +1,6 @@
-import { StaticImage } from "gatsby-plugin-image";
 import React from "react";
 import styled from "styled-components";
+import { StaticImage } from "gatsby-plugin-image";
 
 const HeroStyles = styled.div`
 
@@ -38,15 +38,6 @@ const HeroStyles = styled.div`
 
   .hero__cats-container {
     display: block;
-  }
-
-  @media only screen 
-    and (min-width: 375px) {
-
-    button {
-      margin-top: 5rem;
-    }
-
   }
 
   @media only screen 

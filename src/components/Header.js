@@ -23,10 +23,6 @@ const HeaderStyles = styled.div`
     align-items: center;
   }
 
-  .header__logo p {
-    margin-right: 2rem;
-  }
-
   .header__nav {
     flex: 50%;
 

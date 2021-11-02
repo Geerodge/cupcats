@@ -78,19 +78,39 @@ const HeroStyles = styled.div`
   }
 `;
 
-const Hero = () => {
+const Hero = (props) => {
+  const { title, paragraphs, buttons } = props;
+  
+  // Maps through the heroParagraphs array object prop
+  function getHeroParagraphs(items) {
+    return items.map(item => (
+        <p key={item.id}>{item.paragraph}</p>
+    ));
+  }
+
+  // Maps through the heroButtons array object prop
+  function getHeroButtons(items) {
+    return items.map(item => (
+        <a href={item.link}>
+          <button key={item.id} className={item.class}>{item.text}</button>
+        </a>
+    ));
+  }
+
   return (
   <HeroStyles>
     <div className="hero">
       <div className="hero__cats-container">
-        <StaticImage className="cupcats" src="../images/cupcats.png" alt="cupcats" />
+        <StaticImage 
+          className="cupcats"
+          src="../images/cupcats.png"
+          alt="cupcats"
+        />
       </div>
       <div className="hero__text">
-        <h1>Hello Cat World!</h1>
-        <p>Hello, I’m cupkitten. I make sweet cats in cups. To read my story and why I do Cupcats, please join our Discord and join to the community.</p>
-        <p>Almost everything about Cupcats decided with community members, you can find details below!</p>
-        <button className="primary">Read More</button>
-        <button className="secondary">Check Rarities</button>
+        <h1>{title}</h1>
+        {getHeroParagraphs(paragraphs)}
+        {getHeroButtons(buttons)}
       </div>
       <span className="circle"></span>
     </div>

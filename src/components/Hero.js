@@ -91,8 +91,8 @@ const Hero = (props) => {
   // Maps through the heroButtons array object prop
   function getHeroButtons(items) {
     return items.map(item => (
-        <a href={item.link}>
-          <button key={item.id} className={item.class}>{item.text}</button>
+        <a key={item.id} href={item.link}>
+          <button className={item.class}>{item.text}</button>
         </a>
     ));
   }

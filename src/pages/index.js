@@ -2,6 +2,7 @@ import * as React from "react";
 import Banner from "../components/Banner";
 import Hero from "../components/Hero";
 import ImageAside from "../components/ImageAside";
+import ImageBar from "../components/ImageBar";
 import Layout from "../components/Layout";
 
 // Hero paragraph content
@@ -42,6 +43,7 @@ const IndexPage = () => {
       />
       <ImageAside />
       <Banner />
+      <ImageBar />
     </Layout>
   )
 }

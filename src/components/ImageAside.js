@@ -77,7 +77,7 @@ const ImageAside = () => (
           <h2 className="heading-2">Our Story</h2>
           <p>Hello, I’m cupkitten. I make sweet cats in cups. To read my story and why I do Cupcats, please join our Discord and join to the community.</p>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut in blandit enim. Donec non metus vitae justo posuere ultricies.</p>
-          <button class="primary">Read More</button>
+          <button className="primary">Read More</button>
         </div>
       </section>
     </ImageAsideStyles>

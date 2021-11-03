@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import background from "../images/banner-cats.png"
 
-const BannerStyles = styled.div`
+const ImageBannerStyles = styled.div`
 
 section {
   display: flex;
@@ -62,17 +62,17 @@ section {
 
 `;
 
-const Banner = () => {
+const ImageBanner = () => {
   return (
-    <BannerStyles>
+    <ImageBannerStyles>
       <section>
         <div>
           <h2 className="heading-2">CupCat Rarities</h2>
           <button className="tertiary">Check Rarities</button>
         </div>
       </section>
-    </BannerStyles>
+    </ImageBannerStyles>
   )
 }
 
-export default Banner;
+export default ImageBanner;

@@ -1,8 +1,10 @@
 import * as React from "react";
-import Banner from "../components/Banner";
+import ImageBanner from "../components/ImageBanner";
 import Hero from "../components/Hero";
 import ImageAside from "../components/ImageAside";
 import ImageBar from "../components/ImageBar";
+import ImageList from "../components/ImageList";
+import TextBanner from "../components/TextBanner";
 import Layout from "../components/Layout";
 
 // Hero paragraph content
@@ -42,8 +44,10 @@ const IndexPage = () => {
         buttons={heroButtons}
       />
       <ImageAside />
-      <Banner />
+      <ImageBanner />
       <ImageBar />
+      <ImageList />
+      <TextBanner />
     </Layout>
   )
 }

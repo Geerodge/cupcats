@@ -55,8 +55,8 @@ const ImageAsideStyles = styled.div`
 @media only screen 
   and (min-width: 1200px) {
 
-    .image-aside__text p {
-      max-width: 75%;
+    .image-aside__text {
+      max-width: 45%;
     }
 }
 

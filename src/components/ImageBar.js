@@ -37,6 +37,10 @@ const ImageBarStyles = styled.div`
     z-index: -1;
     top: 15px;
   }
+  & h3 {
+    color: var(--quaternary);
+    margin-bottom: 0;
+  }
   & h4 {
     margin-bottom: 0;
   }
@@ -47,6 +51,7 @@ const ImageBarStyles = styled.div`
 
 @media only screen 
     and (min-width: 576px) {
+      
     .image-bar__one,
     .image-bar__two,
     .image-bar__three,

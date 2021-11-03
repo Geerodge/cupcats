@@ -35,9 +35,35 @@ const GlobalStyles = createGlobalStyle`
     width: 100vw;
     overflow-x: hidden; /* Hide horizontal scrollbar */
 
-    h1, h2, h3, h4, h5, h6 {
+    h1, h2 {
       font-family: "Comic Neue", "Lemon", sans-serif;
       color: var(--black);
+    }
+
+    /*
+    clamp() enables selecting value within a range of values between 
+    a defined minimum and maximum. It takes three parameters: 
+    a minimum value, a preferred value, and a maximum allowed value. 
+    */
+    .heading-1--mega {
+      font-size: clamp(4rem, 6vw, 8rem);
+      line-height: clamp(4.5rem, 7vw, 8.5rem);
+    }
+
+    .heading-1 {
+      font-size: clamp(4rem, 4vw, 6rem);
+      line-height: clamp(3.5rem, 6vw, 6.5rem);
+    }
+
+    .heading-2 {
+      font-size: clamp(3rem, 4vw, 5rem);
+      line-height: clamp(3rem, 5.5vw, 4.5rem);
+    }
+
+    .heading-3 {
+      font-size: clamp(2rem, 3vw, 2rem);
+      line-height: clamp(3rem, 5.5vw, 4.5rem);
+      font-family: Montserrat;
     }
 
     button.primary {
@@ -96,32 +122,6 @@ const GlobalStyles = createGlobalStyle`
 
     a {
       color: var(--primary);
-    }
-
-    /*
-    clamp() enables selecting value within a range of values between 
-    a defined minimum and maximum. It takes three parameters: 
-    a minimum value, a preferred value, and a maximum allowed value. 
-    */
-
-    .heading-1--mega {
-      font-size: clamp(4rem, 6vw, 8rem);
-      line-height: clamp(4.5rem, 7vw, 8.5rem);
-    }
-
-    .heading-1 {
-      font-size: clamp(4rem, 4vw, 6rem);
-      line-height: clamp(3.5rem, 6vw, 6.5rem);
-    }
-
-    .heading-2 {
-      font-size: clamp(3rem, 4vw, 5rem);
-      line-height: clamp(3rem, 5.5vw, 4.5rem);
-    }
-
-    .heading-3 {
-      font-size: clamp(2rem, 3vw, 2.5rem);
-      line-height: clamp(3rem, 5.5vw, 4.5rem);
     }
 
   }

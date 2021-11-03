@@ -1,4 +1,5 @@
 import * as React from "react";
+import Banner from "../components/Banner";
 import Hero from "../components/Hero";
 import ImageAside from "../components/ImageAside";
 import Layout from "../components/Layout";
@@ -40,6 +41,7 @@ const IndexPage = () => {
         buttons={heroButtons}
       />
       <ImageAside />
+      <Banner />
     </Layout>
   )
 }

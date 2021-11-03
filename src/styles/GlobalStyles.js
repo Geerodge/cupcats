@@ -76,6 +76,24 @@ const GlobalStyles = createGlobalStyle`
       }
     }
 
+    button.tertiary {
+      background-color: var(--white);
+      cursor: pointer;
+      border: none;
+      border-radius: 100px;
+      color: var(--quaternary);
+      padding: 0 35px;
+      height: 2.5em;
+      -webkit-transition: background-color .3s ease-out;
+      -moz-transition: background-color .3s ease-out;
+      -o-transition: background-color .3s ease-out;
+      transition: background-color .3s ease-out;
+      &:hover {
+        background-color: var(--quaternary);
+        color: var(--white);
+      }
+    }
+
     a {
       color: var(--primary);
     }
@@ -92,33 +110,18 @@ const GlobalStyles = createGlobalStyle`
     }
 
     .heading-1 {
-      font-size: clamp(3rem, 5vw, 6rem);
+      font-size: clamp(4rem, 4vw, 6rem);
       line-height: clamp(3.5rem, 6vw, 6.5rem);
     }
 
     .heading-2 {
-      font-size: clamp(2.5rem, 4.5vw, 3.5rem);
+      font-size: clamp(3rem, 4vw, 5rem);
       line-height: clamp(3rem, 5.5vw, 4.5rem);
     }
 
     .heading-3 {
-      font-size: clamp(1.75rem, 3.75vw, 3.75rem);
-      line-height: clamp(2.25rem, 4.75vw, 4.25rem);
-    }
-
-    .heading-4 {
-      font-size: clamp(1.5rem, 3vw, 3rem);
-      line-height: clamp(2rem, 4vw, 3.5rem);
-    }
-
-    .heading-5 {
-      font-size: clamp(1.25rem, 2.5vw, 2.5rem);
-      line-height: clamp(1.75rem, 3.5vw, 3rem);
-    }
-
-    .heading-6 {
-      font-size: clamp(1rem, 2vw, 2rem);
-      line-height: clamp(1.5rem, 3vw, 2.5rem);
+      font-size: clamp(2rem, 3vw, 2.5rem);
+      line-height: clamp(3rem, 5.5vw, 4.5rem);
     }
 
   }

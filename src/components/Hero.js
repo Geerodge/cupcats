@@ -99,7 +99,7 @@ const Hero = (props) => {
         />
       </div>
       <div className="hero__text">
-        <h1>{title}</h1>
+        <h1 className="heading-1">{title}</h1>
         {getHeroParagraphs(paragraphs)}
         {getHeroButtons(buttons)}
       </div>

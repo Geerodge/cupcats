@@ -159,7 +159,7 @@ const HeaderStyles = styled.div`
 
       ul {
         visibility: visible;
-        flex-flow: row nowrap;
+        flex-flow: row wrap;
         height: 75px;
         margin: 0;
       }

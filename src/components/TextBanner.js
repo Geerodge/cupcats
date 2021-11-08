@@ -29,6 +29,7 @@ section {
   & h3 {
     margin-bottom: 0px;
     color: var(--quaternary);
+    text-transform: uppercase;
   }
   & h4 {
     text-transform: uppercase;

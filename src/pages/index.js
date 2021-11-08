@@ -6,6 +6,7 @@ import ImageBar from "../components/ImageBar";
 import ImageList from "../components/ImageList";
 import TextBanner from "../components/TextBanner";
 import Layout from "../components/Layout";
+import Team from "../components/Team";
 
 // Hero paragraph content
 const heroParagraphs = [
@@ -48,6 +49,7 @@ const IndexPage = () => {
       <ImageBar />
       <ImageList />
       <TextBanner />
+      <Team />
     </Layout>
   )
 }

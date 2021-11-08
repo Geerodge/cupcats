@@ -106,7 +106,7 @@ const ImageBar = () => (
     <ImageBarStyles>
       <section className="image-bar">
         <div className="image-bar__one">
-          <svg viewbox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
+          <svg viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
             <polygon fill="none" 
                     stroke="#7B2F8C"
                     stroke-width="3"
@@ -118,7 +118,7 @@ const ImageBar = () => (
           <p>OpenSea collection</p>
         </div>
         <div className="image-bar__two">
-          <svg viewbox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
+          <svg viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
             <polygon fill="none" 
                     stroke="#7B2F8C"
                     stroke-width="3"
@@ -130,7 +130,7 @@ const ImageBar = () => (
           <p>Give a follow to Cupcat Comics on Instagram</p>
         </div>
         <div className="image-bar__three">
-          <svg viewbox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
+          <svg viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
             <polygon fill="none" 
                     stroke="#7B2F8C"
                     stroke-width="3"
@@ -142,7 +142,7 @@ const ImageBar = () => (
           <p>Our official rarity rankings for Cupcats</p>
         </div>
         <div className="image-bar__four">
-          <svg viewbox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
+          <svg viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
             <polygon fill="none" 
                     stroke="#7B2F8C"
                     stroke-width="3"
@@ -154,7 +154,7 @@ const ImageBar = () => (
           <p>Unofficial rankings of Cupcats on Rarity Tools</p>
         </div>
         <div className="image-bar__five">
-          <svg viewbox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
+          <svg viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
             <polygon fill="none" 
                     stroke="#7B2F8C"
                     stroke-width="3"

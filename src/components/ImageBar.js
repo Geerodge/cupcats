@@ -109,8 +109,8 @@ const ImageBar = () => (
           <svg viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
             <polygon fill="none" 
                     stroke="#7B2F8C"
-                    stroke-width="3"
-                    stroke-linecap="round"
+                    strokeWidth="3"
+                    strokeLinecap="round"
                     points="50 1 95 25 95 75 50 99 5 75 5 25"/>
           </svg>
           <span className="circle"></span>
@@ -121,8 +121,8 @@ const ImageBar = () => (
           <svg viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
             <polygon fill="none" 
                     stroke="#7B2F8C"
-                    stroke-width="3"
-                    stroke-linecap="round"
+                    strokeWidth="3"
+                    strokeLinecap="round"
                     points="50 1 95 25 95 75 50 99 5 75 5 25"/>
           </svg>
           <span className="circle"></span>
@@ -133,8 +133,8 @@ const ImageBar = () => (
           <svg viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
             <polygon fill="none" 
                     stroke="#7B2F8C"
-                    stroke-width="3"
-                    stroke-linecap="round"
+                    strokeWidth="3"
+                    strokeLinecap="round"
                     points="50 1 95 25 95 75 50 99 5 75 5 25"/>
           </svg>
           <span className="circle"></span>
@@ -145,8 +145,8 @@ const ImageBar = () => (
           <svg viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
             <polygon fill="none" 
                     stroke="#7B2F8C"
-                    stroke-width="3"
-                    stroke-linecap="round"
+                    strokeWidth="3"
+                    strokeLinecap="round"
                     points="50 1 95 25 95 75 50 99 5 75 5 25"/>
           </svg>
           <span className="circle"></span>
@@ -157,8 +157,8 @@ const ImageBar = () => (
           <svg viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
             <polygon fill="none" 
                     stroke="#7B2F8C"
-                    stroke-width="3"
-                    stroke-linecap="round"
+                    strokeWidth="3"
+                    strokeLinecap="round"
                     points="50 1 95 25 95 75 50 99 5 75 5 25"/>
           </svg>
           <span className="circle"></span>

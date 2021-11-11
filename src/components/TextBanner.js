@@ -27,7 +27,6 @@ section {
     font-size: clamp(4rem, 4vw, 5rem);
   }
   & h3 {
-    margin-bottom: 0px;
     color: var(--quaternary);
     text-transform: uppercase;
   }
@@ -119,9 +118,9 @@ const TextBanner = () => {
     <TextBannerStyles>
       <section>
         <div className="left">
-          <h3 className="header-3">Cupcats Market</h3>
-          <h2 className="header-2">General Info</h2>
-          <h4 className="header-2">5000 Cupcats = 0.02 ETH Each</h4>
+          <h3 className="heading-3">Cupcats Market</h3>
+          <h2 className="heading-2">General Info</h2>
+          <h4 className="heading-4">5000 Cupcats = 0.02 ETH Each</h4>
         </div>
         <div className="right">
           <ul>

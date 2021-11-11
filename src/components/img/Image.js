@@ -1,17 +1,17 @@
 import React from "react";
 import { StaticImage } from "gatsby-plugin-image";
 
-export function Cats() {
+export function Logo() {
  return ( 
     <StaticImage 
-      src="../../images/cats.jpg"
-      alt="Cats"
+      src="../../images/logo.png"
+      alt="Logo"
       placeholder="blurred"
       layout="fixed"
-      width={200}
-      height={200}
+      width={70}
+      height={70}
     />
  )
 }
 
-export default Cats;
+export default Logo;

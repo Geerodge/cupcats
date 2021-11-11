@@ -12,13 +12,10 @@ const ImageListStyles = styled.div`
   text-align: center;
   gap: 5rem;
 
-  margin-top: 5rem;
-
   & h2 {
     margin-top: 0;
   }
   & h3 {
-    margin-bottom: 0;
     color: var(--quaternary);
   }
   & ul {
@@ -84,8 +81,8 @@ const ImageList = () => {
     <ImageListStyles>
       <section className="image-list">
         <div className="image-list__list">
-          <h3 className="header-3">Charity Goals</h3>
-          <h2 className="header-2">Roadmap Activations</h2>
+          <h3 className="heading-3">Charity Goals</h3>
+          <h2 className="heading-2">Roadmap Activations</h2>
           <ul>
             <li>5% of every mint will be donated to cat shelters</li>
             <li>5% of every royalty fee will be donated to cat shelters</li>

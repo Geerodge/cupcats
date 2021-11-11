@@ -25,7 +25,6 @@ const ImageAsideStyles = styled.div`
   }
 
   & h3 {
-    margin-bottom: 0;
     color: var(--quaternary);
     text-transform: uppercase;
   }

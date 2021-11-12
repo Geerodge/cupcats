@@ -21,6 +21,10 @@ const HeaderStyles = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+
+    & h3 {
+      font-weight: 600;
+    }
   }
 
   .header__nav {
@@ -40,6 +44,9 @@ const HeaderStyles = styled.div`
   .header__social--icons {
     color: #26062D;
     margin: 0rem 2rem;
+    &:hover {
+        color: var(--quaternary);
+    }
   }
 
   .header__logo--img {
@@ -82,9 +89,6 @@ const HeaderStyles = styled.div`
         content: "";
         transition: all .2s ease-in-out;
       }
-    }
-    &:hover span, &:hover span:before, &:hover span:after {
-      background: var(--darkgrey);
     }
   }
 

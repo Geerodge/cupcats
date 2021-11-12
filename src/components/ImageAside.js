@@ -72,7 +72,7 @@ const ImageAside = () => (
           />
         </div>
         <div className="image-aside__text">
-          <h3 className="heading-3">About Our Platform</h3>
+          <h3 className="heading-3 subheading">About Our Platform</h3>
           <h2 className="heading-2">Our Story</h2>
           <p>Hello, I’m cupkitten. I make sweet cats in cups. To read my story and why I do Cupcats, please join our Discord and join to the community.</p>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut in blandit enim. Donec non metus vitae justo posuere ultricies.</p>

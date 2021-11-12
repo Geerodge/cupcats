@@ -118,7 +118,7 @@ const TextBanner = () => {
     <TextBannerStyles>
       <section>
         <div className="left">
-          <h3 className="heading-3">Cupcats Market</h3>
+          <h3 className="heading-3 subheading">Cupcats Market</h3>
           <h2 className="heading-2">General Info</h2>
           <h4 className="heading-4">5000 Cupcats = 0.02 ETH Each</h4>
         </div>

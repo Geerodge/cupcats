@@ -17,6 +17,7 @@ const ImageListStyles = styled.div`
   }
   & h3 {
     color: var(--quaternary);
+    text-transform: uppercase;
   }
   & ul {
     display: flex;
@@ -36,10 +37,13 @@ const ImageListStyles = styled.div`
   }
 }
 
-.image-list__image img {
-  border: 1px solid #FFFFFF;
-  box-sizing: border-box;
-  padding: 1rem;
+.image-list__image {
+  margin: 1rem;
+  & img {
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    padding: 1rem;
+  }
 }
 
 @media only screen 
@@ -69,8 +73,13 @@ const ImageListStyles = styled.div`
   and (min-width: 1200px) {
 
     .image-list {
-        margin-top: 10rem;
+      margin-top: 10rem;
+      & h2,
+      & h3 {
+        text-align: left;
+        margin-left: 2rem;
       }
+    }
 
 }
 
@@ -81,7 +90,7 @@ const ImageList = () => {
     <ImageListStyles>
       <section className="image-list">
         <div className="image-list__list">
-          <h3 className="heading-3">Charity Goals</h3>
+          <h3 className="heading-3 subheading">Charity Goals</h3>
           <h2 className="heading-2">Roadmap Activations</h2>
           <ul>
             <li>5% of every mint will be donated to cat shelters</li>

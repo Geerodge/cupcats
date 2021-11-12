@@ -66,6 +66,10 @@ const GlobalStyles = createGlobalStyle`
       font-family: Montserrat;
     }
 
+    .subheading {
+      font-weight: 500;
+    }
+
     button.primary {
       background-color: var(--quaternary);
       cursor: pointer;

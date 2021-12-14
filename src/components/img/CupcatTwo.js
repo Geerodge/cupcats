@@ -1,18 +1,17 @@
 import React from "react";
 import { StaticImage } from "gatsby-plugin-image";
 
-export function Logo() {
+export function CupcatTwo() {
  return ( 
     <StaticImage 
-      src="../../images/logo.svg"
-      alt="Logo"
+      src="../../images/cupcat-2.svg"
+      alt="Cupcat"
       placeholder="blurred"
       layout="fixed"
-      width={70}
-      height={70}
-      className="logo-img"
+      width={54}
+      height={54}
     />
  )
 }
 
-export default Logo;
+export default CupcatTwo;

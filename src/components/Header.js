@@ -1,10 +1,11 @@
 import { Link } from "gatsby";
 import React from "react";
 import styled from "styled-components";
-import { StaticImage } from "gatsby-plugin-image"
 
 import { FaTwitter } from "react-icons/fa";
 import { BsInstagram, BsDiscord } from "react-icons/bs";
+
+import Logo from "../components/img/Image";
 
 const HeaderStyles = styled.div`
 
@@ -24,6 +25,10 @@ const HeaderStyles = styled.div`
 
     & h3 {
       font-weight: 600;
+    }
+
+    & .gatsby-image-wrapper {
+      margin: 0rem 2rem;
     }
   }
 
@@ -47,10 +52,6 @@ const HeaderStyles = styled.div`
     &:hover {
         color: var(--quaternary);
     }
-  }
-
-  .header__logo--img {
-    margin: 0rem 2rem;
   }
 
   /* Mobile Nav */
@@ -191,40 +192,39 @@ const HeaderStyles = styled.div`
 `;
 
 const Header = () => (
-    <HeaderStyles>
-      <header>
-        <div className="header__logo">
-          <StaticImage className="header__logo--img" src="../images/logo.png" alt="cat" />
-          <h3>CupCats</h3>
+  <HeaderStyles>
+    <header>
+      <div className="header__logo">
+        <Logo />
+        <h3>CupCats</h3>
+      </div>
+      <nav className="header__nav">
+        <input type="checkbox" id="overlay-input" />
+        <label htmlFor="overlay-input" id="overlay-button"><span></span></label>
+        <div id="overlay">
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><Link to="/about">About</Link></li>
+                <li><Link to="/mint">MINT!</Link></li>
+                <li><Link to="/traits">Traits</Link></li>
+                <li><a href="/roadmap">Roadmap</a></li>
+                <li><a href="/contact">Contact</a></li>
+            </ul>
         </div>
-        <nav className="header__nav">
-          <input type="checkbox" id="overlay-input" />
-          <label htmlFor="overlay-input" id="overlay-button"><span></span></label>
-          <div id="overlay">
-              <ul>
-                  <li><a href="/">Home</a></li>
-                  <li><Link to="/about">About</Link></li>
-                  <li><Link to="/mint">MINT!</Link></li>
-                  <li><Link to="/traits">Traits</Link></li>
-                  <li><a href="/roadmap">Roadmap</a></li>
-                  <li><a href="/contact">Contact</a></li>
-              </ul>
-          </div>
-        </nav>
-        <div className="header__social">
-          <a href="https://www.instagram.com/" target="_blank" rel="noreferrer">
-              <BsInstagram className="header__social--icons" size={35} />
-          </a>
-          <a href="https://twitter.com/cupcatnft" target="_blank" rel="noreferrer">
-              <FaTwitter className="header__social--icons" size={35} />
-          </a>
-          <a href="https://discord.com/invite/ZTmEHUhk69" target="_blank" rel="noreferrer">
-              <BsDiscord className="header__social--icons" size={35} />
-          </a>
-        </div>
-      </header>
-    </HeaderStyles>
-
+      </nav>
+      <div className="header__social">
+        <a href="https://www.instagram.com/" target="_blank" rel="noreferrer">
+            <BsInstagram className="header__social--icons" size={35} />
+        </a>
+        <a href="https://twitter.com/cupcatnft" target="_blank" rel="noreferrer">
+            <FaTwitter className="header__social--icons" size={35} />
+        </a>
+        <a href="https://discord.com/invite/ZTmEHUhk69" target="_blank" rel="noreferrer">
+            <BsDiscord className="header__social--icons" size={35} />
+        </a>
+      </div>
+    </header>
+  </HeaderStyles>
 )
 
 export default Header;

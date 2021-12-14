@@ -4,7 +4,8 @@ import { FaTwitter, FaEthereum } from "react-icons/fa";
 import { BsDiscord } from "react-icons/bs";
 import { GiSailboat } from "react-icons/gi";
 import { Link } from "gatsby";
-import { StaticImage } from "gatsby-plugin-image";
+
+import Logo from "../components/img/Image";
 
 const FooterStyles = styled.div`
 
@@ -13,6 +14,10 @@ margin: 25px;
 padding-top: 8rem;
 line-height: 1.75;
 background-color: var(--white);
+
+.logo-img {
+  margin: 0 auto;
+}
 
 .icons {
   color: #26062D;
@@ -54,36 +59,37 @@ ul {
 `;
 
 const Footer = () => {
-    return (
-        <FooterStyles>
-            <footer>
-                <StaticImage className="header__logo--img" src="../images/logo.png" alt="cat" />
-                <ul>
-                  <li><a href="/">Home</a></li>
-                  <li><Link to="/about">About</Link></li>
-                  <li><Link to="/mint">MINT!</Link></li>
-                  <li><Link to="/traits">Traits</Link></li>
-                  <li><a href="/roadmap">Roadmap</a></li>
-                  <li><a href="/contact">Contact</a></li>
-                </ul>
-                <div className="copyright">
-                    &copy; {new Date().getFullYear()}. All rights reserved.<br />
-                    <a href="https://discord.com/invite/ZTmEHUhk69" target="_blank" rel="noreferrer">
-                        <BsDiscord className="icons" size={35} />
-                    </a>
-                    <a href="https://twitter.com/cupcatnft" target="_blank" rel="noreferrer">
-                        <FaTwitter className="icons" size={35} />
-                    </a>
-                    <a href="https://etherscan.io/address/0x8cd8155e1af6ad31dd9eec2ced37e04145acfcb3" target="_blank" rel="noreferrer">
-                        <FaEthereum className="icons" size={35} />
-                    </a>
-                    <a href="https://opensea.io/collection/cupcatsofficial" target="_blank" rel="noreferrer">
-                        <GiSailboat className="icons" size={35} />
-                    </a>
-                </div>
-            </footer>
-        </FooterStyles>
-    )
+  return (
+    <FooterStyles>
+      <footer>
+        <Logo />
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><Link to="/about">About</Link></li>
+          <li><Link to="/mint">MINT!</Link></li>
+          <li><Link to="/traits">Traits</Link></li>
+          <li><a href="/roadmap">Roadmap</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+        <div className="copyright">
+          &copy; {new Date().getFullYear()}. All rights reserved.
+          <br /><br />
+          <a href="https://discord.com/invite/ZTmEHUhk69" target="_blank" rel="noreferrer">
+              <BsDiscord className="icons" size={35} />
+          </a>
+          <a href="https://twitter.com/cupcatnft" target="_blank" rel="noreferrer">
+              <FaTwitter className="icons" size={35} />
+          </a>
+          <a href="https://etherscan.io/address/0x8cd8155e1af6ad31dd9eec2ced37e04145acfcb3" target="_blank" rel="noreferrer">
+              <FaEthereum className="icons" size={35} />
+          </a>
+          <a href="https://opensea.io/collection/cupcatsofficial" target="_blank" rel="noreferrer">
+              <GiSailboat className="icons" size={35} />
+          </a>
+        </div>
+      </footer>
+    </FooterStyles>
+  )
 }
 
 export default Footer;

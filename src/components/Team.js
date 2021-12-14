@@ -1,6 +1,11 @@
 import React from "react";
 import styled from "styled-components";
-import Logo from "../components/img/Image";
+import Cupkitten from "../components/img/Cupkitten";
+import Cupcatchips from "../components/img/Cupcatchips";
+import CupcatOne from "../components/img/CupcatOne";
+import CupcatTwo from "../components/img/CupcatTwo";
+import CupcatThree from "../components/img/CupcatThree";
+import CupcatFour from "../components/img/CupcatFour";
 
 const TeamStyles = styled.div`
 
@@ -140,57 +145,57 @@ const Team = () => {
           <div className="team-container__members">
             <div className="members--one">
               <div className="card">
-                <Logo />
+                <Cupkitten />
                 <h3 className="heading-3">cupkitten</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas pretium aenean pharetra magna ac placerat. Amet commodo nulla facilisi nullam vehicula ipsum a. Eget dolor morbi non arcu. Sollicitudin ac orci phasellus egestas.</p>
+                <p>Idea owner of the Cupcats, and the artist. Every Cupcat trait is hand drawn by cupkitten, started in July and finished in September. Even though she is not a professional illustrator, cupkitten learned a lot of things while making Cupcats and improved herself to create a diverse collection.</p>
               </div>
             </div>
             <div className="members--two">
               <div className="card">
-                <Logo />
+                <Cupcatchips />
                 <h3 className="heading-3">catfish</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas pretium aenean pharetra magna ac placerat. Amet commodo nulla facilisi nullam vehicula ipsum a. Eget dolor morbi non arcu. Sollicitudin ac orci phasellus egestas.</p>
+                <p>Cupkitten's boyfriend, helping with ideas, decisions, and other things cupkitten can't find time for.</p>
               </div>
             </div>
             <div className="members--three">
               <div className="card">
-                <Logo />
+                <Cupcatchips />
                 <h3 className="heading-3">unevenpun</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas pretium aenean pharetra magna ac placerat. Amet commodo nulla facilisi nullam vehicula ipsum a. Eget dolor morbi non arcu. Sollicitudin ac orci phasellus egestas.</p>
+                <p>Web developer turned into a lot of things. Learned Solidity just to help cupkitten.</p>
               </div>
             </div>
             <div className="members--four">
               <div className="card">
-                <Logo />
+                <Cupcatchips />
                 <h3 className="heading-3">Lasalien</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas pretium aenean pharetra magna ac placerat. Amet commodo nulla facilisi nullam vehicula ipsum a. Eget dolor morbi non arcu. Sollicitudin ac orci phasellus egestas.</p>
+                <p>Cupkitten and catfish's friend who knows a lot of things about Discord. Helping with community stuff.</p>
               </div>
             </div>
             <div className="members--five">
               <div className="card">
-                <Logo />
+                <Cupcatchips />
                 <h3 className="heading-3">oranJ</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas pretium aenean pharetra magna ac placerat. Amet commodo nulla facilisi nullam vehicula ipsum a. Eget dolor morbi non arcu. Sollicitudin ac orci phasellus egestas.</p>
+                <p>Catfish's friend who is a motion designer. Making animated Cupcats.</p>
               </div>
             </div>
           </div>
           <h2 className="heading-2">Special Thanks To</h2>
           <div className="team-container__special">
             <div className="special--one">
-              <Logo />
+              <CupcatOne />
               <h3 className="heading-3">somename</h3>
             </div>
             <div className="special--two">
-              <Logo />
-              <h3 className="heading-3">somename</h3>
+              <CupcatTwo />
+              <h3 className="heading-3">otherperson</h3>
             </div>
             <div className="special--three">
-              <Logo />
-              <h3 className="heading-3">somename</h3>
+              <CupcatThree />
+              <h3 className="heading-3">kittencups</h3>
             </div>
             <div className="special--four">
-              <Logo />
-              <h3 className="heading-3">somename</h3>
+              <CupcatFour />
+              <h3 className="heading-3">cupdesigner</h3>
             </div>
           </div>
         </div>

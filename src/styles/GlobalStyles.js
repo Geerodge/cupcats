@@ -3,6 +3,7 @@ import "normalize.css";
 import "@fontsource/patrick-hand"; // Defaults to weight 400.
 import "@fontsource/lemon"; // Defaults to weight 400.
 import "@fontsource/comic-neue"; // Defaults to weight 400.
+import background from "../images/bg.png";
 
 const GlobalStyles = createGlobalStyle`
 
@@ -22,6 +23,7 @@ const GlobalStyles = createGlobalStyle`
 
     font-size: 10px;
 
+    /* background: url(${background}), linear-gradient(180deg, var(--background) 0%, rgba(255, 255, 255, 0)); */
     background: linear-gradient(180deg, var(--background) 0%, rgba(255, 255, 255, 0));
     min-height: 100%;
   }
@@ -68,6 +70,7 @@ const GlobalStyles = createGlobalStyle`
 
     .subheading {
       font-weight: 500;
+      margin-bottom: 0;
     }
 
     button.primary {

@@ -41,7 +41,7 @@ Built using React and Gatsby.
 
 ## Authors
 
-**George McEntegart** - [Website](https://georgemc.net/)
+**George McEntegart** - [Website](https://keen-perlman-262ff2.netlify.app/
 
 ## License
 
